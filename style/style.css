@@ -40,6 +40,18 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.page-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1170px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 :root {
   --text-color: #2196f3;
   --link-color: #212121;
@@ -76,16 +88,7 @@ img {
 .logo {
   color: var(--text-color);
 }
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.page-header-container {
-  display: flex;
-  align-items: center;
-  width: 1170px;
-}
+
 .header-navigation {
 }
 .navigation-list {
