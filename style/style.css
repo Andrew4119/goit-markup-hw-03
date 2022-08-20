@@ -123,13 +123,13 @@ img {
 }
 .webstudio-link {
   letter-spacing: 0.02em;
+  margin-left: auto;
 }
 .adress-link {
   color: var(--portfolio-color);
   text-decoration: none;
   letter-spacing: 0.02em;
 }
-
 .current {
   color: var(--button-color);
 }
@@ -402,10 +402,13 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   align-content: stretch;
   column-gap: 30px;
   row-gap: 30px;
   margin-top: 34px;
+}
+.portfolio-item:nth-child(3n) {
+  margin-right: 0px;
 }
