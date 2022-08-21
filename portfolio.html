@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +20,7 @@
   <body>
     <!-- Шапка сайта -->
     <header class="webstudio-header">
-      <div class="container page-header-container">
+      <div class="container wrapper">
         <a href="./index.html" class="header-logo"><span class="logo">Web</span>Studio</a>
         <nav class="header-navigation">
           <ul class="navigation-list list">
@@ -31,24 +35,22 @@
             </li>
           </ul>
         </nav>
-        <div>
-          <ul class="webstudio-contact-list list wrapper">
-            <li class="contact-item">
-              <a href="mailto:info@devstudio.com" class="webstudio-link adress-link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contact-item">
-              <a href="tel:+380961111111" class="webstudio-link adress-link">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="webstudio-contact-list list wrapper">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="webstudio-link adress-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a href="tel:+380961111111" class="webstudio-link adress-link">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <!-- Основний контент -->
-      <div class="container">
-        <section class="button-portfolio-section">
+      <section class="button-portfolio-section">
+        <div class="container">
           <h1 class="visually-hidden">Список конопок</h1>
           <ul class="button-list list">
             <li class="button-item">
@@ -187,31 +189,32 @@
               </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <!-- Подвал -->
-    <footer class="webstudio-footer">
+     <footer class="webstudio-footer">
       <div class="container">
-        <a href="/index.html" class="footer-logo link"><span class="logo">Web</span>Studio</a>
-        <address class="footer-address">
-          <ul class="footer-list list">
-            <li class="footer-item">
-              <a
-                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                target="_blank"
-                rel="norefferrer noopener nofollow"
-                class="footer-link link"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li class="footer-contact">
-              <a href="mailto:info@devstudio.com" class="footer-contact link">info@devstudio.com</a>
-            </li>
-            <li class="footer-contact">
-              <a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a>
-            </li>
-          </ul>
+        <a href="/index.html" class="footer-logo link"
+          ><span class="logo">Web</span>Studio</a>
+      <address class="footer-address">
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <a
+              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+              target="_blank
+              rel="norefferrer noopener nofollow"
+              class="footer-link link"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li class="footer-contact">
+            <a href="mailto:info@devstudio.com" class="footer-contact link">info@devstudio.com</a>
+          </li>
+          <li class="footer-contact">
+            <a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a>
+          </li>
+        </ul>
         </address>
       </div>
     </footer>
