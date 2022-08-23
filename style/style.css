@@ -392,3 +392,6 @@ img {
   row-gap: 30px;
   margin-top: 50px;
 }
+.nuke {
+  background-color: rgba(47, 48, 58, 40%);
+}
